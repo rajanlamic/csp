@@ -1,0 +1,681 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScheduleVisualizerForm should render ScheduleVisualizerForm component properly using snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ScheduleVisualizerForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "as": "form",
+      "children": Array [
+        <FormField>
+          <label>
+                    Channel
+          </label>
+          <Dropdown
+                    additionLabel="Add "
+                    additionPosition="top"
+                    closeOnBlur={true}
+                    deburr={false}
+                    icon="dropdown"
+                    minCharacters={1}
+                    noResultsMessage="No results found."
+                    onChange={[Function]}
+                    openOnFocus={true}
+                    options={
+                              Array [
+                                        Object {
+                                          "key": "SH",
+                                          "text": "Sky Heart",
+                                          "value": "SH",
+                                        },
+                                        Object {
+                                          "key": "SA",
+                                          "text": "Sky Atlantic",
+                                          "value": "SA",
+                                        },
+                                        Object {
+                                          "key": "S1",
+                                          "text": "Sky One",
+                                          "value": "S1",
+                                        },
+                                        Object {
+                                          "key": "SA",
+                                          "text": "Sky Arts",
+                                          "value": "SA",
+                                        },
+                                      ]
+                    }
+                    placeholder="Select a channel"
+                    renderLabel={[Function]}
+                    search={true}
+                    searchInput="text"
+                    selectOnBlur={true}
+                    selectOnNavigation={true}
+                    selection={true}
+                    wrapSelection={true}
+          />
+</FormField>,
+        <FormField>
+          <label>
+                    Schedule Date
+          </label>
+          <DatePicker
+                    allowSameDay={false}
+                    customInput={
+                              <InputElement
+                                        mask="99/99/9999"
+                              />
+                    }
+                    dateFormat="DD/MM/YYYY"
+                    dateFormatCalendar="MMMM YYYY"
+                    disabled={false}
+                    disabledKeyboardNavigation={false}
+                    dropdownMode="scroll"
+                    monthsShown={1}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onClickOutside={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMonthChange={[Function]}
+                    onSelect={[Function]}
+                    onYearChange={[Function]}
+                    preventOpenOnFocus={false}
+                    shouldCloseOnSelect={true}
+                    showTimeSelect={false}
+                    timeCaption="Time"
+                    timeIntervals={30}
+                    withPortal={false}
+          />
+</FormField>,
+        undefined,
+        <Button
+          as="button"
+          onClick={[Function]}
+          role="button"
+          type="submit"
+>
+          View Schedule
+</Button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <label>
+              Channel
+</label>,
+            <Dropdown
+              additionLabel="Add "
+              additionPosition="top"
+              closeOnBlur={true}
+              deburr={false}
+              icon="dropdown"
+              minCharacters={1}
+              noResultsMessage="No results found."
+              onChange={[Function]}
+              openOnFocus={true}
+              options={
+                            Array [
+                                          Object {
+                                            "key": "SH",
+                                            "text": "Sky Heart",
+                                            "value": "SH",
+                                          },
+                                          Object {
+                                            "key": "SA",
+                                            "text": "Sky Atlantic",
+                                            "value": "SA",
+                                          },
+                                          Object {
+                                            "key": "S1",
+                                            "text": "Sky One",
+                                            "value": "S1",
+                                          },
+                                          Object {
+                                            "key": "SA",
+                                            "text": "Sky Arts",
+                                            "value": "SA",
+                                          },
+                                        ]
+              }
+              placeholder="Select a channel"
+              renderLabel={[Function]}
+              search={true}
+              searchInput="text"
+              selectOnBlur={true}
+              selectOnNavigation={true}
+              selection={true}
+              wrapSelection={true}
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Channel",
+            },
+            "ref": null,
+            "rendered": "Channel",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "additionLabel": "Add ",
+              "additionPosition": "top",
+              "closeOnBlur": true,
+              "deburr": false,
+              "icon": "dropdown",
+              "minCharacters": 1,
+              "noResultsMessage": "No results found.",
+              "onChange": [Function],
+              "openOnFocus": true,
+              "options": Array [
+                Object {
+                  "key": "SH",
+                  "text": "Sky Heart",
+                  "value": "SH",
+                },
+                Object {
+                  "key": "SA",
+                  "text": "Sky Atlantic",
+                  "value": "SA",
+                },
+                Object {
+                  "key": "S1",
+                  "text": "Sky One",
+                  "value": "S1",
+                },
+                Object {
+                  "key": "SA",
+                  "text": "Sky Arts",
+                  "value": "SA",
+                },
+              ],
+              "placeholder": "Select a channel",
+              "renderLabel": [Function],
+              "search": true,
+              "searchInput": "text",
+              "selectOnBlur": true,
+              "selectOnNavigation": true,
+              "selection": true,
+              "wrapSelection": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <label>
+              Schedule Date
+</label>,
+            <DatePicker
+              allowSameDay={false}
+              customInput={
+                            <InputElement
+                                          mask="99/99/9999"
+                            />
+              }
+              dateFormat="DD/MM/YYYY"
+              dateFormatCalendar="MMMM YYYY"
+              disabled={false}
+              disabledKeyboardNavigation={false}
+              dropdownMode="scroll"
+              monthsShown={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClickOutside={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onMonthChange={[Function]}
+              onSelect={[Function]}
+              onYearChange={[Function]}
+              preventOpenOnFocus={false}
+              shouldCloseOnSelect={true}
+              showTimeSelect={false}
+              timeCaption="Time"
+              timeIntervals={30}
+              withPortal={false}
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Schedule Date",
+            },
+            "ref": null,
+            "rendered": "Schedule Date",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "allowSameDay": false,
+              "customInput": <InputElement
+                mask="99/99/9999"
+/>,
+              "dateFormat": "DD/MM/YYYY",
+              "dateFormatCalendar": "MMMM YYYY",
+              "disabled": false,
+              "disabledKeyboardNavigation": false,
+              "dropdownMode": "scroll",
+              "monthsShown": 1,
+              "onBlur": [Function],
+              "onChange": [Function],
+              "onClickOutside": [Function],
+              "onFocus": [Function],
+              "onKeyDown": [Function],
+              "onMonthChange": [Function],
+              "onSelect": [Function],
+              "onYearChange": [Function],
+              "preventOpenOnFocus": false,
+              "shouldCloseOnSelect": true,
+              "showTimeSelect": false,
+              "timeCaption": "Time",
+              "timeIntervals": 30,
+              "withPortal": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "as": "button",
+          "children": "View Schedule",
+          "onClick": [Function],
+          "role": "button",
+          "type": "submit",
+        },
+        "ref": null,
+        "rendered": "View Schedule",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "as": "form",
+        "children": Array [
+          <FormField>
+            <label>
+                        Channel
+            </label>
+            <Dropdown
+                        additionLabel="Add "
+                        additionPosition="top"
+                        closeOnBlur={true}
+                        deburr={false}
+                        icon="dropdown"
+                        minCharacters={1}
+                        noResultsMessage="No results found."
+                        onChange={[Function]}
+                        openOnFocus={true}
+                        options={
+                                    Array [
+                                                Object {
+                                                  "key": "SH",
+                                                  "text": "Sky Heart",
+                                                  "value": "SH",
+                                                },
+                                                Object {
+                                                  "key": "SA",
+                                                  "text": "Sky Atlantic",
+                                                  "value": "SA",
+                                                },
+                                                Object {
+                                                  "key": "S1",
+                                                  "text": "Sky One",
+                                                  "value": "S1",
+                                                },
+                                                Object {
+                                                  "key": "SA",
+                                                  "text": "Sky Arts",
+                                                  "value": "SA",
+                                                },
+                                              ]
+                        }
+                        placeholder="Select a channel"
+                        renderLabel={[Function]}
+                        search={true}
+                        searchInput="text"
+                        selectOnBlur={true}
+                        selectOnNavigation={true}
+                        selection={true}
+                        wrapSelection={true}
+            />
+</FormField>,
+          <FormField>
+            <label>
+                        Schedule Date
+            </label>
+            <DatePicker
+                        allowSameDay={false}
+                        customInput={
+                                    <InputElement
+                                                mask="99/99/9999"
+                                    />
+                        }
+                        dateFormat="DD/MM/YYYY"
+                        dateFormatCalendar="MMMM YYYY"
+                        disabled={false}
+                        disabledKeyboardNavigation={false}
+                        dropdownMode="scroll"
+                        monthsShown={1}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClickOutside={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMonthChange={[Function]}
+                        onSelect={[Function]}
+                        onYearChange={[Function]}
+                        preventOpenOnFocus={false}
+                        shouldCloseOnSelect={true}
+                        showTimeSelect={false}
+                        timeCaption="Time"
+                        timeIntervals={30}
+                        withPortal={false}
+            />
+</FormField>,
+          undefined,
+          <Button
+            as="button"
+            onClick={[Function]}
+            role="button"
+            type="submit"
+>
+            View Schedule
+</Button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <label>
+                Channel
+</label>,
+              <Dropdown
+                additionLabel="Add "
+                additionPosition="top"
+                closeOnBlur={true}
+                deburr={false}
+                icon="dropdown"
+                minCharacters={1}
+                noResultsMessage="No results found."
+                onChange={[Function]}
+                openOnFocus={true}
+                options={
+                                Array [
+                                                Object {
+                                                  "key": "SH",
+                                                  "text": "Sky Heart",
+                                                  "value": "SH",
+                                                },
+                                                Object {
+                                                  "key": "SA",
+                                                  "text": "Sky Atlantic",
+                                                  "value": "SA",
+                                                },
+                                                Object {
+                                                  "key": "S1",
+                                                  "text": "Sky One",
+                                                  "value": "S1",
+                                                },
+                                                Object {
+                                                  "key": "SA",
+                                                  "text": "Sky Arts",
+                                                  "value": "SA",
+                                                },
+                                              ]
+                }
+                placeholder="Select a channel"
+                renderLabel={[Function]}
+                search={true}
+                searchInput="text"
+                selectOnBlur={true}
+                selectOnNavigation={true}
+                selection={true}
+                wrapSelection={true}
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Channel",
+              },
+              "ref": null,
+              "rendered": "Channel",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "additionLabel": "Add ",
+                "additionPosition": "top",
+                "closeOnBlur": true,
+                "deburr": false,
+                "icon": "dropdown",
+                "minCharacters": 1,
+                "noResultsMessage": "No results found.",
+                "onChange": [Function],
+                "openOnFocus": true,
+                "options": Array [
+                  Object {
+                    "key": "SH",
+                    "text": "Sky Heart",
+                    "value": "SH",
+                  },
+                  Object {
+                    "key": "SA",
+                    "text": "Sky Atlantic",
+                    "value": "SA",
+                  },
+                  Object {
+                    "key": "S1",
+                    "text": "Sky One",
+                    "value": "S1",
+                  },
+                  Object {
+                    "key": "SA",
+                    "text": "Sky Arts",
+                    "value": "SA",
+                  },
+                ],
+                "placeholder": "Select a channel",
+                "renderLabel": [Function],
+                "search": true,
+                "searchInput": "text",
+                "selectOnBlur": true,
+                "selectOnNavigation": true,
+                "selection": true,
+                "wrapSelection": true,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <label>
+                Schedule Date
+</label>,
+              <DatePicker
+                allowSameDay={false}
+                customInput={
+                                <InputElement
+                                                mask="99/99/9999"
+                                />
+                }
+                dateFormat="DD/MM/YYYY"
+                dateFormatCalendar="MMMM YYYY"
+                disabled={false}
+                disabledKeyboardNavigation={false}
+                dropdownMode="scroll"
+                monthsShown={1}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClickOutside={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMonthChange={[Function]}
+                onSelect={[Function]}
+                onYearChange={[Function]}
+                preventOpenOnFocus={false}
+                shouldCloseOnSelect={true}
+                showTimeSelect={false}
+                timeCaption="Time"
+                timeIntervals={30}
+                withPortal={false}
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Schedule Date",
+              },
+              "ref": null,
+              "rendered": "Schedule Date",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "allowSameDay": false,
+                "customInput": <InputElement
+                  mask="99/99/9999"
+/>,
+                "dateFormat": "DD/MM/YYYY",
+                "dateFormatCalendar": "MMMM YYYY",
+                "disabled": false,
+                "disabledKeyboardNavigation": false,
+                "dropdownMode": "scroll",
+                "monthsShown": 1,
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onClickOutside": [Function],
+                "onFocus": [Function],
+                "onKeyDown": [Function],
+                "onMonthChange": [Function],
+                "onSelect": [Function],
+                "onYearChange": [Function],
+                "preventOpenOnFocus": false,
+                "shouldCloseOnSelect": true,
+                "showTimeSelect": false,
+                "timeCaption": "Time",
+                "timeIntervals": 30,
+                "withPortal": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "as": "button",
+            "children": "View Schedule",
+            "onClick": [Function],
+            "role": "button",
+            "type": "submit",
+          },
+          "ref": null,
+          "rendered": "View Schedule",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

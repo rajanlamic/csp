@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScheduleVisualizerItem should render ScheduleVisualizerItem component properly using snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    item={
+        Object {
+            "endTime": "07:00",
+            "startTime": "06:00",
+            "titleName": "The Amazing Spiderman",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <GridColumn
+          width={4}
+>
+          06:00
+</GridColumn>,
+        <GridColumn
+          width={4}
+>
+          07:00
+</GridColumn>,
+        <GridColumn
+          width={8}
+>
+          The Amazing Spiderman
+</GridColumn>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "06:00",
+          "width": 4,
+        },
+        "ref": null,
+        "rendered": "06:00",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "07:00",
+          "width": 4,
+        },
+        "ref": null,
+        "rendered": "07:00",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "The Amazing Spiderman",
+          "width": 8,
+        },
+        "ref": null,
+        "rendered": "The Amazing Spiderman",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <GridColumn
+            width={4}
+>
+            06:00
+</GridColumn>,
+          <GridColumn
+            width={4}
+>
+            07:00
+</GridColumn>,
+          <GridColumn
+            width={8}
+>
+            The Amazing Spiderman
+</GridColumn>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "06:00",
+            "width": 4,
+          },
+          "ref": null,
+          "rendered": "06:00",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "07:00",
+            "width": 4,
+          },
+          "ref": null,
+          "rendered": "07:00",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "The Amazing Spiderman",
+            "width": 8,
+          },
+          "ref": null,
+          "rendered": "The Amazing Spiderman",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

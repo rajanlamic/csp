@@ -4,23 +4,41 @@ import { Form, Dropdown, Button } from 'semantic-ui-react';
 import InputMask from 'react-input-mask';
 import channelOptions from 'Shared/channels';
 
-const ScheduleVisualizerForm = () => (
+const ScheduleVisualizerForm = props => {
+
+    const dropDownHandler = e => {
+        props.onUpdateChannel(e.target.value || e.target.textContent);
+    }
+
+    const datePickerHandler = date => {
+        props.onUpdateSchedulDate(date);
+    }
+
+    const submitHandler = () =>{
+        props.onSubmitToView(props.channel, props.scheduleDate);
+    }
+
+    return (
     <Form>
         <Form.Field>
             <label>Channel</label>
-            <Dropdown placeholder='Select a channel' search selection options={channelOptions} />
+            <Dropdown onChange={dropDownHandler}
+                placeholder='Select a channel' search selection options={channelOptions} />
         </Form.Field>
         <Form.Field>
             <label>Schedule Date</label>
-            <DatePicker
+            <DatePicker onChange={datePickerHandler}
                 dateFormat="DD/MM/YYYY"
                 customInput= {
                     <InputMask mask="99/99/9999"/>
                 }
             />
         </Form.Field>
-        <Button type='submit'>View Schedule</Button>
-    </Form>
-);
+        {
+            props.error && (<div class="error">{props.error}</div>)
+        }
+        <Button type='submit' onClick={submitHandler}>View Schedule</Button>
+    </Form>);
+}
 
 export default ScheduleVisualizerForm;

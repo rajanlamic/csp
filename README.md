@@ -41,6 +41,12 @@ The requirement that was given, is to fetch the data, and display the schedule i
 * react-datepicker - a date picker component
 * moment - library to handle dates and times
 * react-input-mask - library that provides input masking
+* react-redux - react redux
+* redux - redux for state management
+* redux-thunk - for asunchronous action creator
+* axios - library to fetche data from API
+* enzyme - test library
+* enzyme-adapter-react-16 - engyme adapeter for react
 
 If you need to add more libraries, please add them here alongside a description of their function
 
